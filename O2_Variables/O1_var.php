@@ -21,7 +21,9 @@ echo "Name is $name full name is $Name and my age is $_age_ <br/>";
 
 $num=20;
 $a=$b=30;
-echo "Value of $b";
+
+echo "Value of $a";
+
 echo $num*3;
 echo "<br/>";
 

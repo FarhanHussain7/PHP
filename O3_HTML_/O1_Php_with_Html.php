@@ -1,4 +1,4 @@
-<!-- Php - it will handle the server and batabase part
+<!-- Php - it will handle the server and database part also 
     html - it will handle the frontend with static ui -->
 
 

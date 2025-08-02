@@ -7,7 +7,7 @@
       <?php
       echo " Farhan Hussain <br/> "; echo "Phone : 897767888 <br/> "; echo "address : delhi <br/>";
       echo 10+10;
-      echo("hello sirrr")
+      echo("hello sirrr");
       ?>
 
 
