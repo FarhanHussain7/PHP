@@ -6,7 +6,7 @@
 <?php
 
     echo "<H1 style='color:green'>Helloe my name is Farhan </H1>";
-    echo "<H3 style='color:blue'>I am From Delhi </H3>";
+    echo "<H3 style='text-align:center'>I am From Delhi </H3>";
 
 ?>
 
@@ -17,7 +17,7 @@
 ?>
 
 <!-- Third way  -->
-<H1 style='color:red'>
+<H1 style='border:2px solid red'>
     Hello how are you !
     <?php
 
