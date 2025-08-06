@@ -16,4 +16,12 @@ for($j=1; $j <=10; $j++){
 }
 echo "Next Table <br/> <br/>";
 }
+
+
+$Array=["Hello ", "Sir ", "How ", "Are ", "You" ];
+
+foreach($Array as $x ){
+    echo $x;
+    echo "<br/>";
+}
 ?>
