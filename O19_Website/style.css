@@ -1,0 +1,49 @@
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.heading{
+    color: gold;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+}
+
+.header ul li{
+    width: 60px;
+}
+
+.header ul li a{
+    text-decoration: none;
+}
+.header h3{
+    color: goldenrod;
+}
+
+.footer{
+    margin-top: 20px;
+
+}
+
+.footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer ul li{
+    padding: 40px;
+}
+
+img{
+    margin-left: 200px;
+    width: 900px;
+    height: 450px;
+}

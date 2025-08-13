@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input field</title>
+</head>
+<body>
+        <form action="./O1_Input_field.php" method="post">
+            <input type="text" placeholder="enter your name" name="name">
+            <br/>
+            <br/>
+            <input type="text" placeholder="enter your email" name="email">
+            <br/>
+            <br/>
+            <input type="password" placeholder="enter your password" name="password">
+            <br/>
+            <br/>
+            <input type="checkbox" name="skills[]" value="php"><span>PHP</span>
+            <br/>
+            <br/>
+            <input type="checkbox" name="skills[]" value="JAVA"><span>JAVA</span>
+            <br/>
+            <br/>
+            <input type="checkbox" name="skills[]" value="Python"><span>Python</span>
+            <br/>
+            <br/>
+            <input type="checkbox" name="skills[]" value="Nodejs"><span>Nodejs</span>
+            <br/>
+            <br/>
+            <input type="radio" name="gender" value="male"><span>male</span>
+            <br/>
+            <br/>
+            
+            <input type="radio" name="gender" value="female"><span>female</span>
+            <br/>
+            <br/>
+                
+            <select name="city" id="">
+                <option>select your city</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Noida">Noida</option>
+                <option value="GuruGram">GuruGram</option>
+            </select>
+            <br/>
+            <br/>
+            <textarea name="bio"></textarea>
+            <br/>
+            <br/>
+            <button>sign up</button>
+        </form>
+</body>
+</html>
