@@ -1,0 +1,23 @@
+there is a PhpmyAdmin UI 
+steps to create database 
+
+ google chrome :- localhost/PhpmyAdmin/
+step 1 - click on Database 
+step 2 - create database by giving the name 
+        ceate database <database-name>
+step 3 - create table by giving name and coloums 
+        create table <table-name>(
+            id int not null primary auto-increment,
+            name 
+        )
+
+
+        step -4 
+
+        INSERT INTO `students`
+         (`id`, `name`, `course`, `batch`, `city`, `year`) 
+         VALUES 
+         (NULL, 'Farhan hussain', 'Python', 'morning', 'goa', '2024');
+
+
+         step 5 get 

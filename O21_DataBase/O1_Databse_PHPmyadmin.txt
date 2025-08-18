@@ -1,7 +1,0 @@
-there is a PhpmyAdmin UI 
-steps to create database 
-
- google chrome :- localhost/PhpmyAdmin/
-step 1 - click on Database 
-step 2 - create database by giving the name 
-step 3 - create table by giving name and coloums 
