@@ -1,5 +1,5 @@
 <?php
-include("./O1_config.php");
+include("./O1_connection_With_Database.php");
 
 // Prepare and execute the query
 $getStudent = $conn->prepare("SELECT * FROM EMPLOYEE");
@@ -25,4 +25,5 @@ foreach ($students as $student) {
     echo "<tr><td>" . $student['NAME'] . "</td><td>" . $student['AGE'] . "</td><td>" . $student['EMAIL'] . "</td></tr>";
 }
 echo "</table>";
+
 ?>
