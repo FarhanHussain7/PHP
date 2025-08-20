@@ -26,7 +26,7 @@ $res = $conn->query($sql);
 
 if ($res->num_rows > 0) {
     while ($row = $res->fetch_assoc()) {
-        echo "Name: " . $row['name'] . "age : ". $row['age']." email : " . $row['email'] . "<br/>";
+        echo "Name: " . $row['NAME'] . "  age : ". $row['AGE']." email : " . $row['EMAIL'] . "<br/>";
     }
 } else {
     echo "No products found.";
