@@ -6,7 +6,7 @@ $dbname = "farhankart";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
-// $conn = new mysqli("localhost", "root", "farhan@8130310586@1234", "mydb");
+
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);

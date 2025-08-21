@@ -10,6 +10,4 @@ $test = "main";
 
  echo $test();
 
-
-
 ?>
