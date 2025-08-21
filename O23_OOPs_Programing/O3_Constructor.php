@@ -3,6 +3,7 @@
 //  It is special type function because it will call by itself after declring the object 
 //  It is alway have same name <__construct> 
 //  It is mainly used for connection, setting value 
+//  Only One Cortuctor is allowed in a class
 
     class ConstructorDemo{
         public $name;
