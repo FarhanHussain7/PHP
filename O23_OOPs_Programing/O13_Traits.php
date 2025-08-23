@@ -1,5 +1,4 @@
 <?php
-
     // Traits are mechanism to reuse code in a single inheritance language so we use multiple inheritence by traits
     /* Note : PHP is single inheritence(only one parent class is inherit by child ) not a 
     multiple iheritence(multiple parent class inherit by child)  language */
