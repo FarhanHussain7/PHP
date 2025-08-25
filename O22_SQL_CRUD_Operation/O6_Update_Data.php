@@ -51,9 +51,5 @@ $updateEmp = $conn->prepare("UPDATE EMPLOYEE SET
  }else{
   echo "Data not updated";
  }
- 
-
-
-
 }
 ?>
